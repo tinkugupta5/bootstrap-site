@@ -52,12 +52,19 @@
      outline: none !important ;
 }
 
+.text
+{
+    text-align: justify;
+}
+
 /*---------------BANNER SECTION -----------------------*/ 
 #banner
 {
     background-image: linear-gradient(to right , #a517ba, #5f1782);
     color: #ffffff;
-    padding-top: 10%;
+    padding-top: 5%;
+    
+    
 
 
 }
@@ -72,7 +79,7 @@
 .play-btn
 {
     
-    width: 85px;
+    width: 150px;
     margin: 20px;
     padding: 20px;
 
@@ -89,4 +96,45 @@
     float: right;
     width: 350px;
     padding: 20px;
+}
+.wave
+{
+    padding-bottom: 0px;
+  
+}
+.img12
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img13
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.img14
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+}
+
+.text1
+{
+    text-align: justify;
+}
+
+.services
+{
+    padding: 20px;
+
 }

@@ -135,6 +135,21 @@
 
 .services
 {
-    padding: 20px;
+    margin: 0px;
+    text-align: justify;
 
 }
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.services1
+{
+
+}
+

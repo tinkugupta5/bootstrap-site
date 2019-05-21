@@ -66,13 +66,15 @@
 {
     font-size: 40px;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 5px;
 }
 
 .play-btn
 {
-    width: 45px;
+    
+    width: 85px;
     margin: 20px;
+    padding: 20px;
 
 }
 
@@ -80,4 +82,11 @@
 {
     color: #fff;
     text-decoration: none;
+}
+
+.img10
+{
+    float: right;
+    width: 350px;
+    padding: 20px;
 }

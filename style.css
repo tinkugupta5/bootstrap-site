@@ -148,8 +148,12 @@
 
 }
 
-.services1
+.title
 {
-
+    padding-top: 50px;
 }
 
+.row
+{
+    padding-top: 100px;
+}

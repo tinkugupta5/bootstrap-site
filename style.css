@@ -147,13 +147,26 @@
     text-align: center;
 
 }
-
-.title
-{
-    padding-top: 50px;
-}
-
 .row
 {
     padding-top: 100px;
+}
+.title
+{
+
+    padding-top: 50px;
+}
+
+.title::before
+{
+    
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+
 }

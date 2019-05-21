@@ -125,6 +125,15 @@
     width: 100px;
     height: 100px;
 }
+.img15
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+
+}
 
 }
 
@@ -169,4 +178,28 @@
     display: block;
     transform: translateY(63px);
 
+}
+
+.title::after
+{
+    
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width:50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    transform: translateY(18px);
+
+}
+#services  .btn-info
+{
+        box-shadow: none;
+        padding: 5px 25px;
+        border: none;
+        border-radius: 20px;
+        background-image: linear-gradient(to right , #a517ba, #5f1782);
+        align-content: center;
 }

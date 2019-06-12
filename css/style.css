@@ -101,6 +101,7 @@
 .wave
 {
     padding-bottom: 0px;
+    background-repeat: repeat;
   
 }
 .img12
@@ -207,6 +208,57 @@
         background-image: linear-gradient(to right , #a517ba, #5f1782);
         
 }
+
+
+/*-------video card-----------------------*/
+
+
+.videocard{
+  width:500px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 3px 5px 5px #e0e0e0, -3px 0 5px #e0e0e0;
+}
+
+
+#text{
+  margin-top:-160px;
+  margin-left:-80px;
+}
+
+.card-info{
+  margin-left:30px;
+  margin-top:30px;
+  margin-right:20px;
+  color: #769890;
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+.start{
+  margin-top: -8px;
+  background-color: #50e3c2;
+  height: 70px;
+  border-radius:0px 0px 6px 6px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.start-text{
+  color:white;
+  margin-left:10px;
+  margin-top:15px;
+}
+
 
 
 /*-------ABOUT US -----------------------*/

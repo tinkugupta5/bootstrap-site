@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+    body
+    {    
+        font-family: sans-serif;
+        
+    }
+
+    #nav-bar
+    {
+        
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        
+        
+    }
+    .navbar
+    {
+        
+        background-image: linear-gradient(to right , #a517ba, #5f1782);
+        padding: 0 !important;
+    }
+
+.navbar-brand 
+{
+    height: 40px;
+    padding-left: 28px;
+    color: #fff;
+
+}
+
+.navbar-nav li a 
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+}
+
+.fa-bars
+{
+    color: #FFFFFF;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+
+     outline: none !important ;
+}
+
+.text
+{
+    text-align: justify;
+}
+
+/*---------------BANNER SECTION -----------------------*/ 
+
+
+/*---------- footer section ---------
+#footer
+{
+    background-image: linear-gradient(to right , #a517ba, #5f1782);
+   
+
+}
+
+
+*/
+
+
+

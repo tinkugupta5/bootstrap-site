@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+    body
+    {    
+        font-family: sans-serif;
+        
+    }
+
+    #nav-bar
+    {
+        
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        
+        
+    }
+    .navbar
+    {
+        
+        background-image: linear-gradient(to right , #a517ba, #5f1782);
+        padding: 0 !important;
+    }
+
+.navbar-brand 
+{
+    height: 40px;
+    padding-left: 28px;
+    color: #fff;
+
+}
+
+.navbar-nav li a 
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+}
+
+.fa-bars
+{
+    color: #FFFFFF;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+
+     outline: none !important ;
+}
+
+.text
+{
+    text-align: justify;
+}
+
+
+<!-------------menu section ----------------------->
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.vertical-menu {
+  width: 200px;
+  height: auto;
+  overflow-y: auto;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+<!--------- vertiical menu end------------------->
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: -5;
+  top: 25;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 8px 20px 10px 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.dass a:hover {
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 180px; /* Same as the width of the sidenav */
+  font-size: 25px; /* Increased text to enable scrolling */
+  padding: 35px 10px;
+  text-decoration: justify;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
